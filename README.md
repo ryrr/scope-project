@@ -1,6 +1,7 @@
 # Running instructions
 - Requires Node Version ~`20.15.1`
 - `cd scope-project`->`npm install` -> `npm run dev`-> should be serving on `localhost:3000`
+- videos are grabbed from a hard coded user `ryan_rivera_prod`, if you'd like to change this its in the fetch call in `Home.jsx` on line 21 (Didn't made an envVar for this sry :/)
 # How To
 - using the upload/update button a user may add new videos for display
 - easisiet way is to throw an embeddable youtube link into the video link input although any hosted mp4 should work
